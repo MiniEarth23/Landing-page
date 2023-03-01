@@ -74,7 +74,7 @@ ul {
 .introduction button {
   width: 150px;
   height: 50px;
-  background-color: blue;
+  background-color: #3882f6;
   border-radius: 12px;
   border: none;
   padding: 0;
@@ -132,4 +132,45 @@ h2 {
   font-size: 20px;
   font-weight: bold;
   margin-left: 700px;
+}
+
+.stuff {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stuff .box {
+  display: flex;
+  height: 150px;
+  width: 65%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.stuff .box, .stuff button {
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+.stuff .box h3 {
+  margin-bottom: 5px;
+  font-size: 24px;
+}
+
+.stuff .box p {
+  font-size: 20px;
+}
+
+.stuff button {
+  font-size: 18px;
+  margin-left: 50px;
+  width: 140px;
+  height: 50px;
+  border-radius: 12px;
+  padding: 0;
+  border-color: #f9faf8;
+  border-style: solid;
+  transition-duration: 0.5s;
+  font-weight: bold;
 }
