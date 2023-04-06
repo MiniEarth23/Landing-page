@@ -112,6 +112,12 @@ h2 {
   display: block;
 }
 
+.body p:first-of-type {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
 .content {
   display: flex;
   flex-direction: column;
